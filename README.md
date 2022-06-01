@@ -60,16 +60,17 @@ $b->gantiWarna("Hijau");
 $b->tampilWarna();
 ?>
 ```
-Outputnya
+Outputnya <br>
+
 ![](foto/2.png)
 
 ### Buat file baru dengan nama <b>form.php</b>
 
-```PHP
+```php
 <?php
 /**
 * Nama Class: Form
-* Deskripsi: CLass untuk membuat form inputan text sederhan
+* Deskripsi: CLass untuk membuat form inputan text sederhana
 **/
 
 class Form
@@ -97,7 +98,7 @@ class Form
     echo "<tr><td colspan='2'>";
     echo "<input type='submit' value='".$this->submit."'></td></tr>";
     echo "</table>";
-}
+    }
 
     public function addField($name, $label)
     {
@@ -108,3 +109,6 @@ class Form
 }
 ?>
 ```
+outputnya 
+
+![](foto/3.png)
