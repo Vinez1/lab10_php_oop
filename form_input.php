@@ -4,6 +4,7 @@
 **/
 
 include "form.php";
+<link rel="stylesheet" href="style.php">
 
 echo "<html><head><title>Mahasiswa</title></head><body>";
 $form = new Form("","Input Form");

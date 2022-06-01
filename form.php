@@ -3,7 +3,6 @@
 * Nama Class: Form
 * Deskripsi: CLass untuk membuat form inputan text sederhan
 **/
-
 class Form
 {
     private $fields = array();
@@ -15,9 +14,7 @@ class Form
         $this->action = $action;
         $this->submit = $submit;
     }
-
     public function displayForm()
-
     {
         echo "<form action='".$this->action."' method='POST'>";
         echo '<table width="100%" border="0">';
@@ -32,7 +29,6 @@ class Form
         echo "<input type='submit' value='".$this->submit."'></td></tr>";
         echo "</table>";
     }
-
     public function addField($name, $label)
     {
         $this->fields [$this->jumField]['name'] = $name;

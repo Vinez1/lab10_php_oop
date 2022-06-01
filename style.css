@@ -1,0 +1,18 @@
+body {
+    color: #000;
+    background: #fff;
+    font-size: 10px;
+   }
+   div#content {
+    background: #ccc;
+    font-size: 1.1em;
+   }
+   div#sidebar {
+    color: #fff;
+    background: #000;
+    font-size: 1.0em;
+   }
+   div#footer {
+    color: #555;
+    background: #ccc;
+   }
